@@ -6,5 +6,5 @@ if [ -z "$1" ]; then
   exit 1
 fi
 
-# Run the lint command for the provided filename
-npm run lint "$1"
+# Run the lint command for the provided filename with --fix option
+npm run lint -- "$1" --fix
