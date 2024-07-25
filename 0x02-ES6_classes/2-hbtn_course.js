@@ -1,6 +1,6 @@
 export default class HolbertonCourse {
   constructor(name, length, students) {
-  // Validation of attributes
+    // Validation of attributes
     if (typeof name !== 'string') {
       throw new TypeError('Name must be a string');
     }
