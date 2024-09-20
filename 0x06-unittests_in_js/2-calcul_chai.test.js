@@ -1,9 +1,9 @@
 const { expect } = require('chai');
-const { calculate } = require('./2-calcul_chai');
+const { calculateNumber } = require('./2-calcul_chai');
 
-describe('calculate', () => {
+describe('calculateNumber', () => {
     it('should return the correct sum', () => {
-        expect(calculate('SUM', 1, 2)).to.equal(3);
+        expect(calculateNumber('SUM', 1, 2)).to.equal(3);
     });
 
     it('should return the correct difference', () => {
